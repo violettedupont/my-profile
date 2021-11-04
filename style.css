@@ -1,0 +1,86 @@
+/* Colors and fonts */
+body {
+	background-color: rgb(213, 206, 213);
+	color: rgb(60, 2, 58);
+	font-family: 'Dancing Script', cursive;
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+
+img {
+	width: 150px;
+}
+
+h1 {
+	color: rgb(60, 2, 58);
+	font-family: 'Anton', sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 28px;
+}
+
+h2 {
+	color: #155796;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: #eeeaef;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 8px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: rgb(213, 206, 213);
+	color: rgb(60, 2, 58); 
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #155796;
+	color: rgb(60, 2, 58);
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 38px;
+}
+.list-inline i {
+	font-size: 45px;
+	color: rgb(60, 2, 58);
+}
+.list-inline i:hover {
+	color: #155796;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
